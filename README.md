@@ -37,11 +37,11 @@ cd server.
 npm install.
 
 #### 2.3 Create a .env file in the server root and add:
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-RAZORPAY_KEY_ID=your_razorpay_id
-RAZORPAY_KEY_SECRET=your_razorpay_secret
+##### PORT=5000
+##### MONGODB_URI=your_mongodb_connection_string
+##### JWT_SECRET=your_secret_key
+##### RAZORPAY_KEY_ID=your_razorpay_id
+##### RAZORPAY_KEY_SECRET=your_razorpay_secret
 #### 2.4 Start the server: 
 npm start.
 
