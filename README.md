@@ -22,34 +22,39 @@ Database: MongoDB Atlas.
 
 Payments: Razorpay API.
 ## Setup Instructions
-1. Prerequisites
+### 1. Prerequisites
 Node.js installed.
 
 MongoDB Atlas Account.
 
 Razorpay Dashboard Account (Test Mode).
 
-2. Backend Setup
-2.1 Navigate to the server directory: cd server.
+### 2. Backend Setup
+#### 2.1 Navigate to the server directory:
+cd server.
 
-2.2 Install dependencies: npm install.
+#### 2.2 Install dependencies: 
+npm install.
 
-2.3 Create a .env file in the server root and add:
+#### 2.3 Create a .env file in the server root and add:
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 RAZORPAY_KEY_ID=your_razorpay_id
 RAZORPAY_KEY_SECRET=your_razorpay_secret
-2.4 Start the server: npm start.
+#### 2.4 Start the server: 
+npm start.
 
-3. Frontend Setup
-3.1 Navigate to the client directory: cd client.
+### 3. Frontend Setup
+#### 3.1 Navigate to the client directory: 
+cd client.
 
-3.2 Install dependencies: npm install.
+#### 3.2 Install dependencies: 
+npm install.
 
-3.3 Create a .env file in the client root and add:
+#### 3.3 Create a .env file in the client root and add:
 VITE_RAZORPAY_KEY_ID=your_razorpay_id
 # Usage
 Admin: Use the "Admin Login" portal to view metrics, all user registrations, and export CSVs.
 
-User: Register/Login to view NGO impact images, donate via Razorpay, and track your contribution history.
+User: Register/Login to donate via Razorpay, and track your contribution history.
